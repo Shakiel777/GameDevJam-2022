@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8361e67d95a1a9a459d035579598226c, type: 3}
+  m_Name: Bow_Archer
+  m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: 61d5336732317164aa94980b5ac6ce69, type: 2}
+  equippedPrefab: {fileID: 2569539570467067158, guid: d42f6cd5bb847b94aa255a0b57258ea7, type: 3}
+  weaponDamage: 1
+  percentageBonus: 0
+  weaponRange: 10
+  isRightHanded: 0
+  projectile: {fileID: 982009088505503327, guid: 36bc6c38fbcb9b440ae1d3df958edf94, type: 3}
