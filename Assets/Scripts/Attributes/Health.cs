@@ -13,6 +13,7 @@ namespace RPG.Attributes
         [SerializeField] float regenerationPercentage = 70;
         [SerializeField] TakeDamageEvent takeDamage;
         [SerializeField] UnityEvent onDie;
+        [SerializeField] float DespawnCorpse = 4;
 
         [System.Serializable]
         public class TakeDamageEvent : UnityEvent<float>
@@ -103,6 +104,12 @@ namespace RPG.Attributes
             isDead = true;
             GetComponent<Animator>().SetTrigger("die");
             GetComponent<ActionScheduler>().CancelCurrentAction();
+
+            if (gameObject.tag != "Player")
+            {
+                Destroy(gameObject, DespawnCorpse);
+            }
+
         }
 
         private void AwardExperience(GameObject instigator)

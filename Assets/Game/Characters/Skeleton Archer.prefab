@@ -3408,7 +3408,7 @@ GameObject:
   - component: {fileID: 1972612082467976067}
   - component: {fileID: 7468785770825806868}
   m_Layer: 0
-  m_Name: Skeleton Mage
+  m_Name: Skeleton Archer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3514,7 +3514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingLevel: 1
-  characterClass: 2
+  characterClass: 3
   progression: {fileID: 11400000, guid: 393bc48a01014cc4b92513c67392e813, type: 2}
   levelUpParticleEffect: {fileID: 0}
   shouldUseModifiers: 0
@@ -3645,7 +3645,7 @@ MonoBehaviour:
   timeBetweenAttacks: 1
   rightHandTransform: {fileID: 6029613220079593536}
   leftHandTransform: {fileID: 6029613220079593502}
-  defaultWeapon: {fileID: 11400000, guid: b568e5a6014eb8848b1d8f73caaf1b5e, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: 149e10ceddf72d64d9ebac6485fb8755, type: 2}
 --- !u!195 &1972612082467976067
 NavMeshAgent:
   m_ObjectHideFlags: 0

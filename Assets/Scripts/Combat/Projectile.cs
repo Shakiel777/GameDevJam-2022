@@ -11,9 +11,9 @@ namespace RPG.Combat
         [SerializeField] float speed = 1;
         [SerializeField] bool isHoming = true;
         [SerializeField] GameObject hitEffect = null;
-        [SerializeField] float maxLifetime = 10f;
+        [SerializeField] float maxLifetime = 10;
         [SerializeField] GameObject[] destroyOnHit = null;
-        [SerializeField] float lifeAfterImpact = 2f;
+        [SerializeField] float lifeAfterImpact = 2;
         [SerializeField] UnityEvent onhit;
 
         Health target = null;
@@ -60,6 +60,8 @@ namespace RPG.Combat
             if (other.GetComponent<Health>() != target) return;
             if (target.IsDead()) return;
             target.TakeDamage(instigator, damage);
+
+            speed = 0;
 
             onhit.Invoke();
 
