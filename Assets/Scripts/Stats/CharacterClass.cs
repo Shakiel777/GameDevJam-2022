@@ -8,6 +8,7 @@ namespace RPG.Stats
         Archer,
         Knight,
         Minion,
-        Soldier
+        Soldier,
+        Boss
     }
 }

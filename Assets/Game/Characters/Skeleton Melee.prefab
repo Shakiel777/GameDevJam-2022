@@ -1395,7 +1395,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8819b5016facee748838ba33bad3ebe4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6f3bc8dedbdfc43c6936b119abd9a43a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   timeBetweenAttacks: 1
   rightHandTransform: {fileID: 6605070264087121625}
   leftHandTransform: {fileID: 2357934533205119248}
-  defaultWeapon: {fileID: 11400000, guid: 5f6dbca5bb522cd498fb8b5080372de2, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: a1a50aa44d41d30499f6d8c9bdc946d8, type: 2}
 --- !u!114 &5122047552771173695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1868,7 +1868,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3425825714665667951}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -1907,6 +1907,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  DespawnCorpse: 4
 --- !u!114 &5122047552771173665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2564,7 +2565,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 09187788c81ff1f43a6666f9be7b10ee, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 21f7381b3f27145af9623e46bc38567a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

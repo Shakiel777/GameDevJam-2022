@@ -3072,6 +3072,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  DespawnCorpse: 4
 --- !u!114 &5385451833132268241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3160,7 +3161,7 @@ MonoBehaviour:
   startingLevel: 1
   characterClass: 0
   progression: {fileID: 11400000, guid: 393bc48a01014cc4b92513c67392e813, type: 2}
-  levelUpParticleEffect: {fileID: 6559015870391142156, guid: 0212ca10fe1015f498516a4f4b9c35a0, type: 3}
+  levelUpParticleEffect: {fileID: 100000, guid: ada5d62ffe762ce4fbccc70dcdbc9022, type: 3}
   shouldUseModifiers: 1
 --- !u!114 &9005276883424208087
 MonoBehaviour:
@@ -3217,7 +3218,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8819b5016facee748838ba33bad3ebe4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9f9d63035e2bd48e7aea92e158ba9d69, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3263,7 +3264,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3293,7 +3294,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 1.1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
