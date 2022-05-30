@@ -14,6 +14,7 @@ namespace RPG.Attributes
         [SerializeField] TakeDamageEvent takeDamage;
         [SerializeField] UnityEvent onDie;
         [SerializeField] float DespawnCorpse = 4;
+        [SerializeField] private GameObject deadUI = null;
 
         [System.Serializable]
         public class TakeDamageEvent : UnityEvent<float>
@@ -108,6 +109,11 @@ namespace RPG.Attributes
             if (gameObject.tag != "Player")
             {
                 Destroy(gameObject, DespawnCorpse);
+            }
+
+            if (gameObject.tag == "Player")
+            {
+                deadUI.SetActive(true);
             }
 
         }

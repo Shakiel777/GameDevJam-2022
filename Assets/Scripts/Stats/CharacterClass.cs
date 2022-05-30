@@ -9,6 +9,7 @@ namespace RPG.Stats
         Knight,
         Minion,
         Soldier,
-        Boss
+        Boss,
+        Champion
     }
 }
