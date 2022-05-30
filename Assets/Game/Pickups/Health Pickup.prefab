@@ -90,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8231944789491884832, guid: 95729b3b44a9ebc46b8fc3aad8732a07, type: 3}
       propertyPath: m_Radius
-      value: 0.4
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8231944789491884832, guid: 95729b3b44a9ebc46b8fc3aad8732a07, type: 3}
       propertyPath: m_Center.y

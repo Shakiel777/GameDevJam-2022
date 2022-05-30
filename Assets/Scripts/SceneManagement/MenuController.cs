@@ -53,6 +53,11 @@ namespace RPG.SceneManagement
             SceneManager.LoadScene(0);
         }
 
+        public void LoadSceneTwo()
+        {
+            SceneManager.LoadScene(2);
+        }
+
         public void ExitButton()
         {
             Application.Quit();

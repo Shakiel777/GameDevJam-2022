@@ -16369,9 +16369,9 @@ MonoBehaviour:
   onDie:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3887308188091594922}
+      - m_Target: {fileID: 3887308188091594916}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: 
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16382,6 +16382,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   DespawnCorpse: 4
+  deadUI: {fileID: 0}
 --- !u!114 &3887308189180495378
 MonoBehaviour:
   m_ObjectHideFlags: 0
